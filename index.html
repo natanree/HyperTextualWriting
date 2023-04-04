@@ -1,21 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <style>
+            html {
+                font-family: sans-serif;
+                margin: 16px;
+                background-color: black;
+            }
+            .text {
+                text-align: center;
+                color: white;
+            }
+            .buttons {
+                display:flex;
+                gap: 5%
+            }
+            a{
+                flex: auto;
+                text-decoration: none;
+                outline: none;
+                color:black;
+                line-height: 3;
+                text-align: center;
+                font-size: large;
+                font-weight: bold;
+            }
+            a:link,
+            a:visited,
+            a:focus {
+                background: palegoldenrod;
+                color:black
+            }
+            a:hover {
+                background: orange;
+            }
+            a:active {
+                background: darkred;
+                color:white;
+            }
+        </style>
         <title>
             Story of your life through pets
         </title>
     </head>
     <body>
-        <p>
+        <div class="text">
             <h1>
-                You, a college student own a ___
+                You are a college student who owns _____.
             </h1>
-        </p>
-        <p>
-            <a href="dog.html">dog</a>
-        </p>
-        <p>
-            <a href="cat.html">cat</a>
-        </p>
+        </div>
+        <div class="buttons">
+            <a href="dog.html">a dog</a>
+            <a href="cat.html">a cat</a>
+            <a href="nothing.html">nothing</a>
+        </div>
+        
     </body>
 </html>
